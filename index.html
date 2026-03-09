@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!-- 繁體中文語系:(1)zh-TW (2) zh-Hant-TW -->
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jane&Sami Blog</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/20260302.css">
+    <style>
+        .container {
+            box-shadow: 2px 2px 2px 2px var(--sky-blue01b);
+        }
+
+        .logo {
+            position: relative;
+            height: 40vh;
+            margin-top: 20px;
+        }
+
+        .logo .box {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: var(--sky-blue02);
+            transform: rotate(45deg);
+            border-radius: 10px;
+        }
+
+        .logo .box1 {
+            right: 0;
+            box-shadow: 1px -3px 4px 4px var(--sky-blue01);
+        }
+
+        .logo .box2 {
+            bottom: 0;
+            box-shadow: 1px 3px 4px 4px var(--sky-blue01);
+        }
+
+        .logo .box3 {
+            position: absolute;
+            background-color: var(--sky-blue01b);
+            right: 20px;
+            left: 20px;
+            bottom: 10px;
+            top: 10px;
+            border-radius: 10px;
+        }
+
+        .logo .box4 {
+            position: absolute;
+            background-color: var(--sky-blue03);
+            background-image: url(img/SamiLogo.jpg);
+            background-position: 35% center;
+            background-size: cover;
+            width: 30vh;
+            height: 30vh;
+            border-radius: 15vh;
+            left: 15vh;
+            top: 5vh;
+            box-shadow: 1px 2px 4px 6px var(--sky-blue01);
+        }
+
+        .text-info {
+            position: absolute;
+            top: 10vh;
+            left: 63vh;
+            right: 25vh;
+        }
+
+        .text-info h1 {
+            font-size: 40px;
+            font-family: "Chiron GoRound TC", sans-serif;
+            font-weight: 900;
+            color: var(--sky-blue03);
+        }
+
+        .text-info hr {
+            border-color: var(--sky-blue10);
+            border-width: 5px;
+        }
+
+        .text-info h3 {
+            font-size: 25px;
+            color: var(--sky-blue03);
+        }
+
+        .text-info p {
+            font-size: 20px;
+            padding-left: 25px;
+            color: var(--sky-blue03);
+            margin-bottom: 0;
+        }
+
+        .text-info a {
+            font-size: 25px;
+            font-weight: 900;
+            padding-left: 30px;
+        }
+
+        .works {
+            text-align: center;
+        }
+
+        .works a {
+            background: var(--sky-grad-A);
+            color: var(--sky-ui-text-C);
+            text-decoration: none;
+            padding: 20px;
+            font-size: 20px;
+            border-radius: 40px;
+            box-shadow: 1px 2px 4px 2px var(--sky-blue01);
+            transition: transform 0.5s;
+        }
+
+        .works a:hover {
+            background: var(--sky-grad-C);
+            color: var(--sky-blue09);
+            transform: scale(1.05);
+        }
+
+        .footer p {
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <div class="box box1"></div>
+                <div class="box box2"></div>
+                <div class="box3"></div>
+                <div class="box4"></div>
+            </div>
+            <div class="text-info">
+                <h1>Jane & Sami</h1>
+                <hr>
+                <h3>全端工程師</h3>
+                <p>智慧生成全端程式與跨平台APP整合實務班</p>
+                <a href="https://www.youtube.com/playlist?list=PLQVqYxp39S6sPlbOYYFxw7KHjO25onmkT" class="text-decoration-none text-danger" target="_blank">YouTube 課堂影片</a>
+            </div>
+        </div>
+
+        <div class="display-4 text-center p-4">=== 課堂作品一欄表 ===</div>
+
+        <div class="works">
+            <ul class="list-unstyled list-inline">
+                <li class="list-inline-item">
+                    <a class="d-block" href="/20260302-01.html" target="_blank">260302履歷樣板</a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="d-block" href="/20260306-01.html" target="_blank">260306網站排版1</a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="d-block" href="/20260306-03.html" target="_blank">260306網站排版2</a>
+                </li>
+            </ul>
+            <ul class="list-unstyled list-inline">
+                <li class="list-inline-item">
+                    <a class="d-block" href="/20260309-01-ch03ch04.html">Bootstrap 筆記ch3,4</a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="d-block" href="/20260309-02-ch05.html">Bootstrap 筆記ch5</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p class="text-center text-bg-info">Copyright © 2026 Jane&Sami Website. 版權所有</p>
+        </div>
+
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

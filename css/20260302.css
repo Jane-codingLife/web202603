@@ -1,18 +1,17 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200..900&display=swap');
-
-body{
-    font-family: "Noto Serif TC", serif;
-} */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200..900&display=swap');
+/* font-family: "Noto Serif TC", serif; */
 
 @import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&display=swap');
+/* font-family: "Klee One", cursive; */
 
 body {
-     font-family: "Klee One", cursive;
+     font-family: "Klee One", cursive, "Noto Serif TC", serif;
 }
 
 :root {
   /* --- Blue 系列 (藍青、冷色、基底色) --- */
   --sky-blue01: #456268; /* 深青灰 */
+  --sky-blue01b: rgba(69, 98, 104, 0.8);
   --sky-blue02: #79a3b1; /* 霧藍 */
   --sky-blue03: #d0e8f2; /* 淺藍 */
   --sky-blue04: #63b4b8; /* 湖綠 */
@@ -25,6 +24,7 @@ body {
 
   /* --- Deep 系列 (深紫、暮色) --- */
   --sky-deep01: #4b3869; /* midnight 紫 */
+  --sky-deep01b: rgba(75, 56, 105, 0.85);
   --sky-deep02: #664e88; /* 暮色紫 */
 
   /* --- Pink 系列 (粉紫、晚霞、暖調) --- */
